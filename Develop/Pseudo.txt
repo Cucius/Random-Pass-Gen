@@ -1,6 +1,7 @@
 -propmts for passoword criteria
 
 -confirm choices when prompted
+  if
 
 -prompt length between 8 - 128
     create prompt asking for charLength >= 8 && charLength <= 128
@@ -12,5 +13,6 @@
     use if/else to check 
 
 -generate pass
+  for loop with passwordLength
 
 -display pass on page                 
