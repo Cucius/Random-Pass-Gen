@@ -24,6 +24,9 @@ var characters = ["!", '"', "#", "$", "%", "&", "(", ")", "*", "+", ",", "-", ".
 var passChoices = [];
 
 generatePassword = function () {
+  //resets passChoices
+  passChoices = [];
+
   //confirm for lowercase, Uppercase, Numeric and Special characters
   var lowCase = window.confirm("Do you want lowercase letters?");
   var upCase = window.confirm("Do you want uppercase Letters?");
