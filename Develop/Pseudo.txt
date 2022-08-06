@@ -1,0 +1,16 @@
+-propmts for passoword criteria
+
+-confirm choices when prompted
+
+-prompt length between 8 - 128
+    create prompt asking for charLength >= 8 && charLength <= 128
+
+-lowercase,uppercase,numeric and/or special characters
+    array for each seperate criteria
+
+-check responses
+    use if/else to check 
+
+-generate pass
+
+-display pass on page                 
